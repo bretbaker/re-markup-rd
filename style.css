@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-row-1,
+.nav-row-2 {
+  /* padding: 1rem 0; */
+  height: 9vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: solid 1px lightgrey;
+}
+
+.nav-row-2-btn {
+  color: dodgerblue;
+  background-color: white;
+  border: solid 1px lightblue;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.map-list-toggle {
+  display: inline-block;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.location-search {
+  display: inline-block;
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+  width: 60%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid lightgrey;
+}
+
+.location-arrow {
+  color: dodgerblue;
+}
+
+.map-img {
+  height: 73vh;
+  border-bottom: solid 1px lightgrey;
+}
+
+.nav-row-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 8.5vh;
+}
+
+.nav-row-3-btn {
+  display: inline-block;
+  text-align: center;
+  color: grey;
+  background-color: white;
+  border: none;
+}
+
+.nav-row-3-btn-text {
+  font-size: 0.65rem;
+  padding-top: 0.5rem;
+}
