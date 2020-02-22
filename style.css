@@ -129,3 +129,12 @@ a {
   margin-top: 10rem;
   color: white;
 }
+
+.account {
+  padding: 1rem;
+  font-weight: bold;
+  background-color: #e8e8e8;
+}
+.fa-user-check {
+  padding: 1rem;
+}
